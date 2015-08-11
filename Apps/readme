@@ -1,1 +1,2 @@
-readme 
+Copy this folder on to your home 
+cp -R Apps ~/
