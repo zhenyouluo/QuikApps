@@ -1,0 +1,27 @@
+total 100
+-rw-rw-r--. 1 anoop anoop    66 Aug  2 12:29 app.cfg
+-rw-rw-r--. 1 anoop anoop     0 Aug  6 00:34 files.lst
+-rw-rw-r--. 1 anoop anoop     0 Jul 27 22:11 home100.pyhtml
+-rw-rw-r--. 1 anoop anoop     0 Jul 27 20:56 home10.pyhtml
+-rw-rw-r--. 1 anoop anoop    36 Aug  1 17:09 home.cfg
+-rwxrwxrwx. 1 anoop anoop   766 Mar  9 21:10 home.py
+-rw-rw-r--. 1 anoop anoop     0 Jul 26 17:17 home.pyhtml
+-rwxrwxrwx. 1 anoop anoop    10 Jul  7  2014 home.py.type
+-rw-rw-r--. 1 anoop anoop    10 Jul 28 23:22 home.suffixfilter
+-rw-rw-r--. 1 anoop anoop     0 Jul 27 20:44 index.pyhtml
+-rw-rw-r--. 1 anoop anoop    11 Aug  6 00:32 index.py.type
+-rw-rw-r--. 1 anoop anoop    17 Jul 28 23:03 index.txt
+-rwxrwxr-x. 1 anoop anoop 21792 Jul 29 22:48 libLibertyPlugin.so.1.0.0
+-rw-rw-r--. 1 anoop anoop     8 Aug  6 00:33 readme
+drwxrwxrwx. 2 anoop anoop  4096 Aug  2 14:14 test1
+drwxrwxrwx. 2 anoop anoop  4096 Mar 18 18:37 test10
+drwxrwxrwx. 2 anoop anoop  4096 Mar 18 18:37 test2
+drwxrwxrwx. 2 anoop anoop  4096 Mar 18 18:37 test3
+drwxrwxrwx. 2 anoop anoop  4096 Mar 18 18:37 test4
+drwxrwxrwx. 2 anoop anoop  4096 Mar 18 18:37 test5
+drwxrwxrwx. 2 anoop anoop  4096 Mar 18 18:37 test6
+drwxrwxrwx. 2 anoop anoop  4096 Mar 18 18:37 test7
+drwxrwxrwx. 2 anoop anoop  4096 Mar 18 18:37 test8
+drwxrwxrwx. 2 anoop anoop  4096 Mar 18 18:37 test9
+drwxrwxrwx. 3 anoop anoop  4096 Mar 18 18:37 toi
+-rw-rw-r--. 1 anoop anoop     0 Jul 27 20:55 uibd.pyhtml
