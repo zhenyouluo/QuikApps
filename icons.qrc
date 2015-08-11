@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>app32.png</file>
+        <file>app64.png</file>
+        <file>app128.png</file>
+        <file>back.png</file>
+        <file>forward.png</file>
+        <file>go.png</file>
+        <file>stop.png</file>
+        <file>refresh.png</file>
+        <file>add.png</file>
+        <file>home.png</file>
+    </qresource>
+</RCC>
