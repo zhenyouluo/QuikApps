@@ -1,2 +1,68 @@
 QuikApps Readme File
 ====================
+
+
+The Idea
+========
+
+Imagine if you could create GUI by using HTML/HTML5/js and you could write the backend plugin using C/C++ 
+wouldn't that be a great thing to do. QuikApps allows you to do just that. Except that the plugin isn't 
+running in a server but within QuikApps Application itself, making it extremely fast. The output from the 
+QuikApps application is sent to the QtWebkit which is then displayed by it.
+
+
+Requirements
+------------
+As of now Qt5 is needed to compile it.
+Requires Qt5-webkit-widgets package as well.
+
+
+BUILDING
+--------
+Run the following commands 
+
+mkdir -p ~/build/QuikApps
+cd ~/build/QuikApps
+
+Assuming you have put the QuikApps source in ~/Projects/QuikApps
+
+qmake ../../Projects/QuikApps/LibertyQt5Windows.pro
+make
+
+
+Building test plugin
+--------------------
+cd ~/build/QuikApps
+mkdir LibertyPlugin
+cd LibertyPlugin
+
+qmake ../../../Projects/QuikApps/LibertyPlugin/LibertyPlugin.pro
+make
+
+
+Setting up the the App Environment 
+----------------------------------
+
+Copy the Apps folder to home
+
+cp -R ~/Projects/QuikApps/Apps ~/
+Edit the .cfg file and add the following line in which ever app it is required
+<ScriptFile>:<Pluginfile.so>
+
+Ex:
+
+Lets say you have an App named FileExplorer
+Go to ~/Apps/FileExplorer
+Edit FileExplorer.cfg (or create new )
+Lets say you are creating a link for a file in a folder and link.py is the script that call CreateLink.so.1.0.0
+Then,
+Add the following line in the FileExplorer.cfg
+link.py:CreateLink.so.1.0.0
+This is done so that when QuikApps starts up it loads all the plugins for use by an app.
+The method to access the FileExplorer App is by going to the Browser Address and entering local:FileExplorer and pressing enter.
+
+
+AUTHORS
+=======
+
+Anoop Kumar Narayanan, anoop dot kn at live dot in 
