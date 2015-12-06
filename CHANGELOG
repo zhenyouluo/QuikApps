@@ -4,6 +4,7 @@ CHANGELOG OF QUIKAPPS
 
 06/11/2015
 ----------
+Added Home index plugin, shows a list of all present apps
 Added createplugin.bash to quickly create a skeleton plugin
 Modified README.
 Added changelog
