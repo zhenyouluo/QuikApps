@@ -6,7 +6,7 @@ MapNameToApp LocalApp::mapNameToApp;
 QMutex       LocalApp::mapMutex;
 
 LocalApp::LocalApp(QObject *parent, QString AppName) :
-    QObject(parent),appName(AppName),referenceCount(0),suffixFilter(".type:.suffixfilter:.cfg:")
+    QObject(parent),referenceCount(0),suffixFilter(".type:.suffixfilter:.cfg:"),appName(AppName)
 {
     readSuffixFilter();
     readLibraryLoadConfig();
