@@ -4,7 +4,8 @@ CHANGELOG OF QUIKAPPS
 
 06/11/2015
 ----------
-
+Added createplugin.bash to quickly create a skeleton plugin
+Modified README.
 Added changelog
 Removed apps/toi
 Added support for so and dll
