@@ -66,9 +66,11 @@ void LocalApp::readLibraryLoadConfig(){
                 QString soFile = line.split(":")[1];
 #ifndef WINDOWS
                 soFile.replace(QString("\n"), QString(""));
+                soFile += QString(".so");
                 //soFile.remove(soFile.length()-1,1);
 #else
                 soFile.replace(QString("\r\n"), QString(""));
+                soFile += QString(".dll");
                 //soFile.remove(soFile.length()-2,2);
 #endif
                 if( appName == "home"){
