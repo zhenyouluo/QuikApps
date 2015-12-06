@@ -5,9 +5,10 @@ QuikApps Readme File
 The Idea
 ========
 
-Imagine if you could create GUI by using HTML/HTML5/js and you could write the backend plugin using C/C++ 
-wouldn't that be a great thing to do. QuikApps allows you to do just that. Except that the plugin isn't 
-running in a server but within QuikApps Application itself, making it extremely fast. The output from the 
+Imagine if you could create GUI by using HTML/HTML5/js and you could write the 
+backend plugin using C/C++ wouldn't that be a great thing to do. QuikApps allows 
+you to do just that. Except that the plugin isn't running in a server but within 
+QuikApps Application itself, making it extremely fast. The output from the 
 QuikApps application is sent to the QtWebkit which is then displayed by it.
 
 
@@ -54,12 +55,16 @@ Ex:
 Lets say you have an App named FileExplorer
 Go to ~/Apps/FileExplorer
 Edit FileExplorer.cfg (or create new )
-Lets say you are creating a link for a file in a folder and link.py is the script that call CreateLink.so.1.0.0
-Then,
+Lets say you want to create a link for a file in a folder and link.py is the script 
+that call CreateLink.so Then,
 Add the following line in the FileExplorer.cfg
-link.py:CreateLink.so.1.0.0
+link.py:CreateLink.so
+
 This is done so that when QuikApps starts up it loads all the plugins for use by an app.
-The method to access the FileExplorer App is by going to the Browser Address and entering local:FileExplorer and pressing enter.
+
+
+The method to access the FileExplorer App is by going to the Browser Address and 
+entering local:FileExplorer and pressing enter.
 
 
 AUTHORS
